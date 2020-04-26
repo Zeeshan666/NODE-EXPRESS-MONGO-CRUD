@@ -1,0 +1,23 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "test crud api",
+  "main": "index.js",
+  "scripts": {
+    "devStart":"nodemon app.js"
+  },
+  "keywords": [
+    "zee",
+    "crud"
+  ],
+  "author": "zeeshan satti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.9.10"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  }
+}

@@ -1,0 +1,16 @@
+GET http://localHost:3000/subcribers
+
+###
+GET http://localHost:3000/subcribers/5ea5798cd4b85013c8f3771f
+
+###
+POST http://localHost:3000/subcribers
+Content-Type: application/json
+
+
+
+
+{
+    "name":"Aliza",
+    "subscriberToChannel":"lorem 6ee"
+}
